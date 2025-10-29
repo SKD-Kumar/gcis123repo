@@ -1,0 +1,10 @@
+l1 = list()
+n = int(input("enter number of values:"))
+for i in range(n):
+    value = input("enter value:")
+    l1.append(value)
+s1 = set(l1)
+print("set:", s1)
+x = input("Enter number to add to set:")
+s1.add(int(x))
+print("set after adding:", s1)
