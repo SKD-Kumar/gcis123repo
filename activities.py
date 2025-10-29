@@ -171,5 +171,5 @@ print("in main: ",t_main,id(t_main))
 print("in main: ",l_main,id(l_main))
 print("in main: ",int_main,id(int_main))'''
 
-l1 = ['s','d','f']
-print(join(l1))
+"""l1 = ['s','d','f']
+print(''.join(l1))"""
